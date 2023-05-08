@@ -327,6 +327,11 @@ return [
             'url'  => 'data',
             'icon' => 'fas fa-fw fa-tag',
         ],
+        [
+            'text' => 'Data User',
+            'url'  => 'user',
+            'icon' => 'fas fa-fw fa-users',
+        ],
     ],
 
     /*

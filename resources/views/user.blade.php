@@ -13,17 +13,15 @@
             <tr>
                 <th scope="col">Id</th>
                 <th scope="col">Nama</th>
-                <th scope="col">Harga</th>
-                <th scope="col">Satuan</th>
+                <th scope="col">Alamat</th>
             </tr>
         </thead>
     <tbody>
-        @foreach ($dataBarang as $data)
+        @foreach ($dataUser as $data)
             <tr>
-                <td>{{ $data->id}}</td>
-                <td>{{ $data->nama}}</td>
-                <td>{{ $data->harga}}</td>
-                <td>{{ $data->satuan}}</td>
+                <td>{{ $data->id_user}}</td>
+                <td>{{ $data->nama_user}}</td>
+                <td>{{ $data->alamat}}</td>
             </tr>
         @endforeach
     </tbody>

@@ -32,3 +32,5 @@ Route::get('/profil/{nama}', function ($nama) {
 });
 
 Route::get('/data', [App\Http\Controllers\BarangController::class, 'index']);
+
+Route::get('/user', [App\Http\Controllers\UserController::class, 'index']);
